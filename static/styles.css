@@ -1,0 +1,48 @@
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	max-width: 800px;
+	width: 75%;
+	height: 100vh;
+}
+
+body {
+	background-color: #8dbbe0;
+	overflow: hidden; /* Add this line to remove the scroll bar */
+}
+
+.box {
+	flex: 1;
+	padding: 20px;
+	border-radius: 10px;
+	text-align: center;
+	background-color: #f2f2f2;
+	margin: 0 10px;
+	border: 2px solid black;
+	text-decoration: none;
+	color: inherit;
+}
+
+.box:hover {
+	background-color: #dcdcdc;
+}
+
+.box img {
+	width: 400px;
+	height: 400px;
+	object-fit: cover;
+	margin-bottom: 10px;
+}
+
+.box h3 {
+	font-size: 1.2em;
+	margin: 0;
+}
+
+.box p {
+	margin: 0;
+	font-size: 0.9em;
+	color: #666;
+}
