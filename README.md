@@ -1,4 +1,4 @@
-# Engadget Tech News Blog
+# Engadget Tech News Articles
 This project is a Flask-based web application that automatically scrapes web data from the tech news page "engadget.com" and creates a simple blog site. The application selects the top 3 news articles from the page and retrieves their respective links and headings. It then scrapes each individual article page to obtain its content, images, and other data. The scraped data is presented on the web application, allowing users to browse and read the latest tech news articles.
 
 ## Project Output
